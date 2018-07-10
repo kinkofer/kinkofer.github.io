@@ -1,0 +1,838 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Berries.swift",
+      "line": 50,
+      "symbol": "PKMBerry.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Berries.swift",
+      "line": 104,
+      "symbol": "PKMBerryFlavor.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Berries.swift",
+      "line": 126,
+      "symbol": "BerryService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Contests.swift",
+      "line": 26,
+      "symbol": "PKMContestType.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Contests.swift",
+      "line": 66,
+      "symbol": "PKMContestEffect.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Contests.swift",
+      "line": 89,
+      "symbol": "PKMSuperContestEffect.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Contests.swift",
+      "line": 100,
+      "symbol": "ContestService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Encounters.swift",
+      "line": 65,
+      "symbol": "EncounterService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Evolution.swift",
+      "line": 23,
+      "symbol": "PKMEvolutionChain.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Evolution.swift",
+      "line": 46,
+      "symbol": "PKMClainLink.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Evolution.swift",
+      "line": 111,
+      "symbol": "PKMEvolutionDetail.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Evolution.swift",
+      "line": 134,
+      "symbol": "PKMEvolutionTrigger.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Evolution.swift",
+      "line": 145,
+      "symbol": "EvolutionService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Games.swift",
+      "line": 42,
+      "symbol": "PKMGeneration.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Games.swift",
+      "line": 77,
+      "symbol": "PKMPokedex.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Games.swift",
+      "line": 94,
+      "symbol": "PKMPokemonEntry.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Games.swift",
+      "line": 117,
+      "symbol": "PKMVersion.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Games.swift",
+      "line": 155,
+      "symbol": "PKMVersionGroup.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Games.swift",
+      "line": 166,
+      "symbol": "GameService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Items.swift",
+      "line": 59,
+      "symbol": "PKMItem.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Items.swift",
+      "line": 83,
+      "symbol": "PKMItemHolderPokemon.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Items.swift",
+      "line": 157,
+      "symbol": "PKMItemFlingEffect.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Items.swift",
+      "line": 185,
+      "symbol": "ItemService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Locations.swift",
+      "line": 32,
+      "symbol": "PKMLocation.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Locations.swift",
+      "line": 67,
+      "symbol": "PKMLocationArea.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Locations.swift",
+      "line": 84,
+      "symbol": "PKMEncounterMethodRate.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Locations.swift",
+      "line": 112,
+      "symbol": "PKMPokemonEncounter.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Locations.swift",
+      "line": 138,
+      "symbol": "PKMPalParkArea.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Locations.swift",
+      "line": 158,
+      "symbol": "PKMPalParkEncounterSpecies.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Locations.swift",
+      "line": 193,
+      "symbol": "PKMRegion.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Locations.swift",
+      "line": 204,
+      "symbol": "LocationService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Machines.swift",
+      "line": 11,
+      "symbol": "PKMMachine",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Machines.swift",
+      "line": 24,
+      "symbol": "PKMMachine.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Machines.swift",
+      "line": 35,
+      "symbol": "MachineService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Moves.swift",
+      "line": 83,
+      "symbol": "PKMMove.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Moves.swift",
+      "line": 111,
+      "symbol": "PKMContestComboDetail.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Moves.swift",
+      "line": 131,
+      "symbol": "PKMMoveFlavorText.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Moves.swift",
+      "line": 178,
+      "symbol": "PKMMoveMetaData.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Moves.swift",
+      "line": 221,
+      "symbol": "PKMPastMoveStatValues.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Moves.swift",
+      "line": 330,
+      "symbol": "PKMMoveLearnMethod.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Moves.swift",
+      "line": 364,
+      "symbol": "MoveService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 43,
+      "symbol": "PKMAbility.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 60,
+      "symbol": "PKMAbilityEffectChange.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 80,
+      "symbol": "PKMAbilityFlavorText.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 100,
+      "symbol": "PKMAbilityPokemon.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 126,
+      "symbol": "PKMCharacteristic.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 152,
+      "symbol": "PKMEggGroup.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 178,
+      "symbol": "PKMGender.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 195,
+      "symbol": "PKMPokemonSpeciesGender.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 227,
+      "symbol": "PKMGrowthRate.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 279,
+      "symbol": "PKMNature.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 296,
+      "symbol": "PKMNatureStatChange.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 316,
+      "symbol": "PKMMoveBattleStylePreference.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 342,
+      "symbol": "PKMPokeathlonStat.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 370,
+      "symbol": "PKMNaturePokeathlonStatAffect.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 435,
+      "symbol": "PKMPokemon.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 455,
+      "symbol": "PKMPokemonAbility.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 483,
+      "symbol": "PKMPokemonHeldItem.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 511,
+      "symbol": "PKMPokemonMove.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 531,
+      "symbol": "PKMPokemonMoveVersion.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 551,
+      "symbol": "PKMPokemonStat.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 586,
+      "symbol": "PKMPokemonSprites.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 603,
+      "symbol": "PKMLocationAreaEncounter.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 629,
+      "symbol": "PKMPokemonColor.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 682,
+      "symbol": "PKMPokemonForm.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 705,
+      "symbol": "PKMPokemonFormSprites.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 731,
+      "symbol": "PKMPokemonHabitat.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 760,
+      "symbol": "PKMPokemonShape.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 777,
+      "symbol": "PKMAwesomeName.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 866,
+      "symbol": "PKMPokemonSpecies.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 894,
+      "symbol": "PKMPokemonSpeciesDexEntry.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 914,
+      "symbol": "PKMPalParkEncounterArea.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 926,
+      "symbol": "PKMPokemonSpeciesVariety.isDefault",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 929,
+      "symbol": "PKMPokemonSpeciesVariety.pokemon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 931,
+      "symbol": "PKMPokemonSpeciesVariety.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 972,
+      "symbol": "PKMStat.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 1000,
+      "symbol": "PKMMoveStatAffect.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 1052,
+      "symbol": "PKMType.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 1092,
+      "symbol": "PKMTypeRelations.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Pokemon.swift",
+      "line": 1103,
+      "symbol": "PokemonService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/PokemonAPI.swift",
+      "line": 15,
+      "symbol": "PokemonAPI",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/PokemonAPI.swift",
+      "line": 16,
+      "symbol": "PokemonAPI.berryService",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/PokemonAPI.swift",
+      "line": 17,
+      "symbol": "PokemonAPI.contestService",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/PokemonAPI.swift",
+      "line": 18,
+      "symbol": "PokemonAPI.encounterService",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/PokemonAPI.swift",
+      "line": 19,
+      "symbol": "PokemonAPI.evolutionService",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/PokemonAPI.swift",
+      "line": 20,
+      "symbol": "PokemonAPI.gameService",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/PokemonAPI.swift",
+      "line": 21,
+      "symbol": "PokemonAPI.itemService",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/PokemonAPI.swift",
+      "line": 22,
+      "symbol": "PokemonAPI.locationService",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/PokemonAPI.swift",
+      "line": 23,
+      "symbol": "PokemonAPI.machineService",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/PokemonAPI.swift",
+      "line": 24,
+      "symbol": "PokemonAPI.moveService",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/PokemonAPI.swift",
+      "line": 25,
+      "symbol": "PokemonAPI.pokemonService",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/PokemonAPI.swift",
+      "line": 26,
+      "symbol": "PokemonAPI.utilityService",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Utilities.swift",
+      "line": 96,
+      "symbol": "PKMEncounter.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Utilities.swift",
+      "line": 113,
+      "symbol": "PKMFlavorText.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Utilities.swift",
+      "line": 130,
+      "symbol": "PKMGenerationGameIndex.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Utilities.swift",
+      "line": 147,
+      "symbol": "PKMMachineVersionDetail.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Utilities.swift",
+      "line": 176,
+      "symbol": "PKMNamedAPIResource.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Utilities.swift",
+      "line": 197,
+      "symbol": "PKMVerboseEffect.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Utilities.swift",
+      "line": 217,
+      "symbol": "PKMVersionEncounterDetail.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Utilities.swift",
+      "line": 234,
+      "symbol": "PKMVersionGameIndex.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Utilities.swift",
+      "line": 254,
+      "symbol": "PKMVersionGroupFlavorText.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Classes/Utilities.swift",
+      "line": 265,
+      "symbol": "UtilityService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Network/HTTPError.swift",
+      "line": 11,
+      "symbol": "HTTPError",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Network/HTTPError.swift",
+      "line": 12,
+      "symbol": "HTTPError.ErrorType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Network/HTTPError.swift",
+      "line": 111,
+      "symbol": "HTTPError.legacyError",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Network/HTTPHeader.swift",
+      "line": 72,
+      "symbol": "OptionSet.elements()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Network/Pagination.swift",
+      "line": 22,
+      "symbol": "PaginationRelationship.first",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Network/Pagination.swift",
+      "line": 23,
+      "symbol": "PaginationRelationship.last",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Network/Pagination.swift",
+      "line": 24,
+      "symbol": "PaginationRelationship.next",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Network/Pagination.swift",
+      "line": 25,
+      "symbol": "PaginationRelationship.previous",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Network/Result.swift",
+      "line": null,
+      "symbol": "Result",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Network/Result.swift",
+      "line": 11,
+      "symbol": "Result",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Network/Result.swift",
+      "line": 12,
+      "symbol": "Result.success",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Network/Result.swift",
+      "line": 13,
+      "symbol": "Result.failure",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Network/Result.swift",
+      "line": 18,
+      "symbol": "Result.init(value:error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Utilities/Decodable+Decode.swift",
+      "line": 12,
+      "symbol": "Decodable.decode(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Utilities/Decodable+Decode.swift",
+      "line": 25,
+      "symbol": "Array.decode(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Utilities/SelfDecodable.swift",
+      "line": 11,
+      "symbol": "SelfDecodable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/kinkofer/Documents/Projects/PokemonAPI/Utilities/SelfDecodable.swift",
+      "line": 12,
+      "symbol": "SelfDecodable.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/kinkofer/Documents/Projects/PokemonAPI"
+}

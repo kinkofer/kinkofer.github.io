@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PKMPokemon Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/PKMPokemon" class="dashAnchor"></a>
+    <a title="PKMPokemon Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">PokemonAPI Docs</a> (86% documented)</p>
+        <p class="header-right"><a href="http://github.com/kinkofer/PokemonAPI"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">PokemonAPI Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        PKMPokemon Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BerryService.html">BerryService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ContestService.html">ContestService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EncounterService.html">EncounterService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EvolutionService.html">EvolutionService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GameService.html">GameService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HTTPError.html">HTTPError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HTTPError/ErrorType.html">– ErrorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@PokemonAPI@objc(cs)HTTPWebService">HTTPWebService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ItemService.html">ItemService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LocationService.html">LocationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MachineService.html">MachineService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MoveService.html">MoveService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMAPIResource.html">PKMAPIResource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMAbility.html">PKMAbility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMAbilityEffectChange.html">PKMAbilityEffectChange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMAbilityFlavorText.html">PKMAbilityFlavorText</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMAbilityPokemon.html">PKMAbilityPokemon</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMAwesomeName.html">PKMAwesomeName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMBerry.html">PKMBerry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMBerryFirmness.html">PKMBerryFirmness</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMBerryFlavor.html">PKMBerryFlavor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMBerryFlavorMap.html">PKMBerryFlavorMap</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMCharacteristic.html">PKMCharacteristic</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMClainLink.html">PKMClainLink</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMContestComboDetail.html">PKMContestComboDetail</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMContestComboSets.html">PKMContestComboSets</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMContestEffect.html">PKMContestEffect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMContestName.html">PKMContestName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMContestType.html">PKMContestType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMDescription.html">PKMDescription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMEffect.html">PKMEffect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMEggGroup.html">PKMEggGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMEncounter.html">PKMEncounter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMEncounterCondition.html">PKMEncounterCondition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMEncounterConditionValue.html">PKMEncounterConditionValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMEncounterMethod.html">PKMEncounterMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMEncounterMethodRate.html">PKMEncounterMethodRate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMEncounterVersionDetails.html">PKMEncounterVersionDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMEvolutionChain.html">PKMEvolutionChain</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMEvolutionDetail.html">PKMEvolutionDetail</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMEvolutionTrigger.html">PKMEvolutionTrigger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMFlavorBerryMap.html">PKMFlavorBerryMap</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMFlavorText.html">PKMFlavorText</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMGender.html">PKMGender</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMGeneration.html">PKMGeneration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMGenerationGameIndex.html">PKMGenerationGameIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMGenus.html">PKMGenus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMGrowthRate.html">PKMGrowthRate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMGrowthRateExperienceLevel.html">PKMGrowthRateExperienceLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMItem.html">PKMItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMItemAttribute.html">PKMItemAttribute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMItemCategory.html">PKMItemCategory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMItemFlingEffect.html">PKMItemFlingEffect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMItemHolderPokemon.html">PKMItemHolderPokemon</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMItemHolderPokemonVersionDetail.html">PKMItemHolderPokemonVersionDetail</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMItemPocket.html">PKMItemPocket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMItemSprites.html">PKMItemSprites</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMLanguage.html">PKMLanguage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMLocation.html">PKMLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMLocationArea.html">PKMLocationArea</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMLocationAreaEncounter.html">PKMLocationAreaEncounter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMMachine.html">PKMMachine</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMMachineVersionDetail.html">PKMMachineVersionDetail</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMMove.html">PKMMove</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMMoveAilment.html">PKMMoveAilment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMMoveBattleStyle.html">PKMMoveBattleStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMMoveBattleStylePreference.html">PKMMoveBattleStylePreference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMMoveCategory.html">PKMMoveCategory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMMoveDamageClass.html">PKMMoveDamageClass</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMMoveFlavorText.html">PKMMoveFlavorText</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMMoveLearnMethod.html">PKMMoveLearnMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMMoveMetaData.html">PKMMoveMetaData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMMoveStatAffect.html">PKMMoveStatAffect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMMoveStatAffectSets.html">PKMMoveStatAffectSets</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMMoveStatChange.html">PKMMoveStatChange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMMoveTarget.html">PKMMoveTarget</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMName.html">PKMName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMNamedAPIResource.html">PKMNamedAPIResource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMNature.html">PKMNature</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMNaturePokeathlonStatAffect.html">PKMNaturePokeathlonStatAffect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMNaturePokeathlonStatAffectSets.html">PKMNaturePokeathlonStatAffectSets</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMNatureStatAffectSets.html">PKMNatureStatAffectSets</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMNatureStatChange.html">PKMNatureStatChange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPagedObject.html">PKMPagedObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPalParkArea.html">PKMPalParkArea</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPalParkEncounterArea.html">PKMPalParkEncounterArea</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPalParkEncounterSpecies.html">PKMPalParkEncounterSpecies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPastMoveStatValues.html">PKMPastMoveStatValues</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokeathlonStat.html">PKMPokeathlonStat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokedex.html">PKMPokedex</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemon.html">PKMPokemon</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonAbility.html">PKMPokemonAbility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonColor.html">PKMPokemonColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonEncounter.html">PKMPokemonEncounter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonEntry.html">PKMPokemonEntry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonForm.html">PKMPokemonForm</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonFormSprites.html">PKMPokemonFormSprites</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonHabitat.html">PKMPokemonHabitat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonHeldItem.html">PKMPokemonHeldItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonHeldItemVersion.html">PKMPokemonHeldItemVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonMove.html">PKMPokemonMove</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonMoveVersion.html">PKMPokemonMoveVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonShape.html">PKMPokemonShape</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonSpecies.html">PKMPokemonSpecies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonSpeciesDexEntry.html">PKMPokemonSpeciesDexEntry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonSpeciesGender.html">PKMPokemonSpeciesGender</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonSpeciesVariety.html">PKMPokemonSpeciesVariety</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonSprites.html">PKMPokemonSprites</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonStat.html">PKMPokemonStat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMPokemonType.html">PKMPokemonType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMRegion.html">PKMRegion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMStat.html">PKMStat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMSuperContestEffect.html">PKMSuperContestEffect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMType.html">PKMType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMTypePokemon.html">PKMTypePokemon</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMTypeRelations.html">PKMTypeRelations</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMVerboseEffect.html">PKMVerboseEffect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMVersion.html">PKMVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMVersionEncounterDetail.html">PKMVersionEncounterDetail</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMVersionGameIndex.html">PKMVersionGameIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMVersionGroup.html">PKMVersionGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKMVersionGroupFlavorText.html">PKMVersionGroupFlavorText</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PokemonAPI.html">PokemonAPI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PokemonService.html">PokemonService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UtilityService.html">UtilityService</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/PaginationRelationship.html">PaginationRelationship</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PaginationState.html">PaginationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Result.html">Result</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Decodable.html">Decodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/OptionSet.html">OptionSet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URL.html">URL</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/SelfDecodable.html">SelfDecodable</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>PKMPokemon</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">PKMPokemon</span> <span class="p">:</span> <span class="kt">Codable</span><span class="p">,</span> <span class="kt"><a href="../Protocols/SelfDecodable.html">SelfDecodable</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Pokémon are the creatures that inhabit the world of the Pokémon games. They can be caught using Pokéballs and trained by battling with other Pokémon. See Bulbapedia for greater detail.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC2idSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/id" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC2idSiSgvp">id</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The identifier for this Pokémon resource</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC4nameSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/name" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC4nameSSSgvp">name</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The name for this Pokémon resource</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC14baseExperienceSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/baseExperience" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC14baseExperienceSiSgvp">baseExperience</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The base experience gained for defeating this Pokémon</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">baseExperience</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC6heightSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/height" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC6heightSiSgvp">height</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The height of this Pokémon</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">height</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC9isDefaultSbSgvp"></a>
+                    <a name="//apple_ref/swift/Property/isDefault" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC9isDefaultSbSgvp">isDefault</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set for exactly one Pokémon used as the default for each species</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">isDefault</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC5orderSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/order" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC5orderSiSgvp">order</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Order for sorting. Almost national order, except families are grouped together.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">order</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC6weightSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/weight" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC6weightSiSgvp">weight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The weight of this Pokémon</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">weight</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC9abilitiesSayAA0C7AbilityCGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/abilities" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC9abilitiesSayAA0C7AbilityCGSgvp">abilities</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A list of abilities this Pokémon could potentially have</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">abilities</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/PKMPokemonAbility.html">PKMPokemonAbility</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC5formsSayAA19PKMNamedAPIResourceCyAA0C4FormCGGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/forms" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC5formsSayAA19PKMNamedAPIResourceCyAA0C4FormCGGSgvp">forms</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A list of forms this Pokémon can take on</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">forms</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/PKMNamedAPIResource.html">PKMNamedAPIResource</a></span><span class="o">&lt;</span><span class="kt"><a href="../Classes/PKMPokemonForm.html">PKMPokemonForm</a></span><span class="o">&gt;</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC11gameIndicesSayAA19PKMVersionGameIndexCGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/gameIndices" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC11gameIndicesSayAA19PKMVersionGameIndexCGSgvp">gameIndices</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A list of game indices relevent to Pokémon item by generation</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">gameIndices</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/PKMVersionGameIndex.html">PKMVersionGameIndex</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC9heldItemsSayAA0C8HeldItemCGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/heldItems" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC9heldItemsSayAA0C8HeldItemCGSgvp">heldItems</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A list of items this Pokémon may be holding when encountered</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">heldItems</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/PKMPokemonHeldItem.html">PKMPokemonHeldItem</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC22locationAreaEncountersSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/locationAreaEncounters" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC22locationAreaEncountersSSSgvp">locationAreaEncounters</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A list of location areas as well as encounter details pertaining to specific versions</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">locationAreaEncounters</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC5movesSayAA0C4MoveCGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/moves" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC5movesSayAA0C4MoveCGSgvp">moves</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A list of moves along with learn methods and level details pertaining to specific version groups</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">moves</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/PKMPokemonMove.html">PKMPokemonMove</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC7spritesAA0C7SpritesCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/sprites" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC7spritesAA0C7SpritesCSgvp">sprites</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A set of sprites used to depict this Pokémon in the game</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">sprites</span><span class="p">:</span> <span class="kt"><a href="../Classes/PKMPokemonSprites.html">PKMPokemonSprites</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC7speciesAA19PKMNamedAPIResourceCyAA0C7SpeciesCGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/species" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC7speciesAA19PKMNamedAPIResourceCyAA0C7SpeciesCGSgvp">species</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The species this Pokémon belongs to</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">species</span><span class="p">:</span> <span class="kt"><a href="../Classes/PKMNamedAPIResource.html">PKMNamedAPIResource</a></span><span class="o">&lt;</span><span class="kt"><a href="../Classes/PKMPokemonSpecies.html">PKMPokemonSpecies</a></span><span class="o">&gt;</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC5statsSayAA0C4StatCGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/stats" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC5statsSayAA0C4StatCGSgvp">stats</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A list of base stat values for this Pokémon</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">stats</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/PKMPokemonStat.html">PKMPokemonStat</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC5typesSayAA0C4TypeCGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/types" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC5typesSayAA0C4TypeCGSgvp">types</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A list of details showing types this Pokémon has</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">types</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/PKMPokemonType.html">PKMPokemonType</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10PokemonAPI10PKMPokemonC7decoder10Foundation11JSONDecoderCvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/decoder" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10PokemonAPI10PKMPokemonC7decoder10Foundation11JSONDecoderCvpZ">decoder</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">decoder</span><span class="p">:</span> <span class="kt">JSONDecoder</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/kinkofer/PokemonAPI" target="_blank" rel="external">Chris Jennewein</a>. All rights reserved. (Last updated: 2018-07-10)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
