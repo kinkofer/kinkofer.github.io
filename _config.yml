@@ -1,0 +1,79 @@
+title: Chris Jennewein
+subtitle: iOS Developer and Game Producer
+description: >- # this means to ignore newlines until "baseurl:"
+  This is my project site. Take a look at some of the work 
+  I've done throughout my career. Some projects are still up and 
+  running while others have long been retired. But they've all 
+  been fun and taught me so much. Enjoy! 
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kinkofer.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+author_logo: profile.png
+disqus_shortname: kinkofer #for comments using disqus
+author: Christopher Jennewein 2019
+author_bio: iOS Developer and Game Producer
+author_email: "christopher.jennewein@gmail.com"
+author_location: Phoenix, AZ
+author_website_url: "https://kinkofer.github.io"
+
+# social links
+
+twitter_username: kinkofer
+github_username: kinkofer
+#facebook_username: yourusername
+linkedin_username: christopherjennewein
+#behance_username: yourusername
+#instagram_username: yourusername
+#medium_username: yourusername
+#telegram_username: yourusername
+#dribbble_username: yourusername
+#flickr_username: yourusername
+twitch_username: kinkofer
+
+
+collections:
+  projects:
+    output: true
+
+# # Welcome to Jekyll!
+# #
+# # This config file is meant for settings that affect your whole blog, values
+# # which you are expected to set up once and rarely edit after that. If you find
+# # yourself editing this file very often, consider using Jekyll's data files
+# # feature for the data you need to update frequently.
+# #
+# # For technical reasons, this file is *NOT* reloaded automatically when you use
+# # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# # Site settings
+# # These are used to personalize your new site. If you look in the HTML files,
+# # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# # You can create any custom variable you would like, and they will be accessible
+# # in the templates via {{ site.myvariable }}.
+# title: Kinkofer
+# email: your-email@example.com
+# description: >- # this means to ignore newlines until "baseurl:"
+#   The website of Christopher Jennewein
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: kinkofer
+# github_username:  kinkofer
+
+# # Build settings
+# markdown: kramdown
+# theme: devlopr
+# plugins:
+#   - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - PokemonAPI
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

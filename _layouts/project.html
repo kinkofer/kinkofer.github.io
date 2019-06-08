@@ -1,0 +1,31 @@
+--- 
+layout: default 
+---
+
+    <div class="card">
+        <div class="col-md-8 offset-md-2 offset-md-right">
+            <h1 class="card-title center">{{ page.name }}</h1>
+            
+            <br />
+
+            <div class="center">
+                <img src="/assets/img/projects/{{ page.bannerImg }}"></img>
+            </div>
+
+            <br />
+
+            <div class="card-header">
+                <strong>Position</strong>: {{ page.position }}
+                <br />
+                {% if page.website %}
+                    <strong>Website</strong>: {{ page.website | markdownify | remove: '<p>' | remove: '</p>' }}
+                {% endif %}
+            </div>
+
+            <br />
+
+            <div class="card-body">
+                {{ content }}
+            </div>
+         </div>
+    </div>
