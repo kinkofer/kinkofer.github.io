@@ -21,4 +21,4 @@ Hex Heroes is a multiplayer real time strategy game for Wii U. Up to 4 players s
 * Programmed Hex Heroes with Unity
 * Developed Prismatic website with WordPress
 * Constructed Kickstarter campaign
-* Manages team resources, schedule, and budget
+* Managed team resources, schedule, and budget
